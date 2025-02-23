@@ -80,15 +80,14 @@ const Home = () => {
      <header class="l-header">
         <nav class="nav bd-grid">
             <div>
-                <a href="#" class="nav-logo">John Doe</a>
+                <a href="#" class="nav-logo">LEN_js</a>
             </div>
 
             <div class="nav-menu" id="nav-menu">
                 <ul class="nav-list">
                     <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
                     <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Start Learn</a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </div>
@@ -97,18 +96,22 @@ const Home = () => {
                 <i class='bx bx-menu'></i>
             </div>
         </nav>
+        
     </header>
 
     <main class="l-main">
         <section class="home" id="home">
             <div class="home-container bd-grid">
-                <h1 class="home-title"><span>HE</span> <br />LLO</h1>
-
+                <div className="flex justify-between">
+                <h1 class="home-title"><span>HE</span > <br />LLO</h1>
+                <p>We're a company about teaching the js</p>
+                </div>
+           
                 <div class="home-scroll">
                     <a href="#about" class="home-scroll-link"><i class='bx bx-up-arrow-alt' ></i>SCROLL DOWN</a>
                 </div>
-
-                {/* <img src="https://i.postimg.cc/x8js2KnT/perfil.png" alt="John Doe" class="home-img"> */}
+        
+            
             </div>
         </section>
     
@@ -122,8 +125,8 @@ const Home = () => {
                 </div>
 
                 <div>
-                    <h2 class="about-subtitle">I'm John Doe</h2>
-                    <span class="about-profession">Web Designer</span>
+                    <h2 class="about-subtitle">We're a company about teaching the P.L</h2>
+                    <span class="about-profession">to be Web Designer</span>
                     <p class="about-text">As a passionate web designer, I thrive on creating visually appealing and user-friendly websites. My journey in web design began with a fascination for how design can enhance user experience</p>
 
                     <div class="about-social">
@@ -136,7 +139,7 @@ const Home = () => {
         </section>
 
         <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
+            <h2 class="section-title">Start!</h2>
 
             <div class="skills-container bd-grid">
                 <div class="skills-box">
@@ -162,60 +165,7 @@ const Home = () => {
             </div>
         </section>
 
-        <section class="portfolio section" id="portfolio">
-            <h2 class="section-title">Portfolio</h2>
-
-            <div class="portfolio-container bd-grid">
-                <div class="portfolio-img">
-                    {/* <img src="" alt="work image"> */}
-
-                    <div class="portfolio-link">
-                        <a href="#" class="portfolio-link-name">View Details</a>
-                    </div>
-                </div>
-
-                <div class="portfolio-img">
-                    {/* <img src="" alt="work image"> */}
-
-                    <div class="portfolio-link">
-                        <a href="#" class="portfolio-link-name">View Details</a>
-                    </div>
-                </div>
-
-                <div class="portfolio-img">
-                    {/* <img src="" alt="work image"> */}
-
-                    <div class="portfolio-link">
-                        <a href="#" class="portfolio-link-name">View Details</a>
-                    </div>
-                </div>
-
-                <div class="portfolio-img">
-                    {/* <img src="" alt="work image"> */}
-
-                    <div class="portfolio-link">
-                        <a href="#" class="portfolio-link-name">View Details</a>
-                    </div>
-                </div>
-
-                <div class="portfolio-img">
-                    {/* <img src="" alt="work image"> */}
-
-                    <div class="portfolio-link">
-                        <a href="#" class="portfolio-link-name">View Details</a>
-                    </div>
-                </div>
-
-                <div class="portfolio-img">
-                    {/* <img src="" alt="work image"> */}
-
-                    <div class="portfolio-link">
-                        <a href="#" class="portfolio-link-name">View Details</a>
-                    </div>
-                </div>
-
-            </div>
-        </section>
+       
 
         <section class="contact section" id="contact">
             <h2 class="section-title">Contact</h2>
@@ -250,12 +200,12 @@ const Home = () => {
     <footer class="footer section">
         <div class="footer-container bd-grid">
             <div class="footer-data">
-                <h2 class="footer-title">John Doe</h2>
-                <p class="footer-text">I'm John Doe and this is my personal website</p>
+                <h2 class="footer-title">LEN_js</h2>
+                <p class="footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, illum!</p>
             </div>
 
             <div class="footer-data">
-                <h2 class="footer-title">John Doe</h2>
+                <h2 class="footer-title">Len_js</h2>
                 <ul>
                     <li><a href="#home" class="footer-link">Home</a></li>
                     <li><a href="#about" class="footer-link">About</a></li>

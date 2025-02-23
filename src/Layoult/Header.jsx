@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const [menu, setMenu] = useState(false);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
@@ -19,7 +20,7 @@ const Header = () => {
 
         <div className={`md:flex ${showMenu ? "block" : "hidden"}`}>
           <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
-            {["Home", "About", "Skills", "Portfolio", "Contact"].map((item) => (
+            {["Home", "About", "Start Learn",  "Contact"].map((item) => (
               <li key={item}>
                 <Link
                   to={item.toLowerCase()}
@@ -38,6 +39,7 @@ const Header = () => {
           <button onClick={toggleMenu} className="text-white text-2xl">
             <i className="bx bx-menu"></i>
           </button>
+         
         </div>
       </nav>
     </header>
