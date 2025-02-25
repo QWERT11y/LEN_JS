@@ -5,8 +5,8 @@ import HtmlHeader from './htmlHeader'
 const HtmlLoyal = ({children}) => {
   return (
     <>
-    <HtmlHeader/>
-    {children}
+      <HtmlHeader/>
+      {children}
       <HtmlLeft/>
     </>
   )

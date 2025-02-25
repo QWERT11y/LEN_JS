@@ -10,9 +10,15 @@ import LessonJS7 from './LessonJS7';
 import LessonJs8 from './LessonJs8';
 import LessonJs9 from './LessonJs9';
 import LessonJs10 from './LessonJs10';
+import JsLoyal from './JsLoyal/JsLoyal';
 const SectionJs = () => {
   return (
     <div>
+
+    <div>
+        <JsLoyal>
+
+
      <Routes>
      <Route path="/lessonJs1" element={<LessonJs1/>} />
      <Route path="/lessonJs2" element={<LessonJs2/>} />
@@ -24,7 +30,16 @@ const SectionJs = () => {
      <Route path="/lessonJs8" element={<LessonJs8/>} />
      <Route path="/lessonJs9" element={<LessonJs9/>} />
      <Route path="/lessonJs10" element={<LessonJs10/>} />
+      
+
      </Routes>
+        
+        </JsLoyal>
+    </div>
+    <div className="pl-[350px] pt-[100px]">
+
+<h1>salom hero bu</h1>
+</div>
     </div>
   )
 }

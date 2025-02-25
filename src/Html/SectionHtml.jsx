@@ -10,19 +10,27 @@ import HtmlLoyal from "./HtmlLoyal/HtmlLoyal";
 const SectionHtml = () => {
   return (
     <div>
-        <HtmlLoyal>
 
-      <Routes>
-        <Route path="/lessonHtml1" element={<LessonHtml1 />} />
-        <Route path="/lessonHtml2" element={<LessonHtml2 />} />
-        <Route path="/lessonHtml3" element={<LessonHtml3 />} />
-        <Route path="/lessonHtml4" element={<LessonHtml4 />} />
-        <Route path="/lessonHtml5" element={<LessonHtml5 />} />
-        <Route path="/lessonHtml6" element={<LessonHtml6 />} />
-      </Routes>
-        </HtmlLoyal>
+        <div>
+          <HtmlLoyal>
+            <Routes>
+              <Route path="/lessonHtml1" element={<LessonHtml1 />} />
+              <Route path="/lessonHtml2" element={<LessonHtml2 />} />
+              <Route path="/lessonHtml3" element={<LessonHtml3 />} />
+              <Route path="/lessonHtml4" element={<LessonHtml4 />} />
+              <Route path="/lessonHtml5" element={<LessonHtml5 />} />
+              <Route path="/lessonHtml6" element={<LessonHtml6 />} />
+            </Routes>
+          </HtmlLoyal>
+          
+        </div>
+        <div className="pl-[350px] pt-[100px]">
+
+        <h1>salom hero bu</h1>
+        </div>
     </div>
-  );
+      );
+
 };
 
 export default SectionHtml;
