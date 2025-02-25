@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import ScrollReveal from "scrollreveal";
 import './Home.css'
+import Burger from "../Burger/burger";
 
 const Home = () => {
     const sr = ScrollReveal({
@@ -91,9 +92,9 @@ const Home = () => {
                     <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </div>
-
+           
             <div class="nav-toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
+               <Burger/>
             </div>
         </nav>
         
@@ -104,7 +105,7 @@ const Home = () => {
             <div class="home-container bd-grid">
                 <div className="flex justify-between">
                 <h1 class="home-title"><span>HE</span > <br />LLO</h1>
-                <p>We're a company about teaching the js</p>
+                
                 </div>
            
                 <div class="home-scroll">
