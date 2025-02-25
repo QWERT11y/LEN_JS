@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import ScrollReveal from "scrollreveal";
 import './Home.css'
 import Burger from "../Burger/burger";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     const sr = ScrollReveal({
@@ -145,10 +146,13 @@ const Home = () => {
             <div class="skills-container bd-grid">
                 <div class="skills-box">
                     <h3 class="skils-subtitle">Development</h3>
-
+                 <Link to={"/Html"}>
                     <span class="skills-name">HTML</span>
+                 </Link>
                     <span class="skills-name">CSS</span>
+                 <Link to={"/Js"}>
                     <span class="skills-name">JAVASCRIPT</span>
+                 </Link>
                     <span class="skills-name">SCSS</span>
                     <span class="skills-name">REACT</span>
                     <span class="skills-name">VUE</span>

@@ -1,13 +1,18 @@
 import React from "react";
 import HomeP from "./HomeP/HomeP";
-import Burger from "./Burger/burger";
-
+import {  Routes , Route } from 'react-router-dom'
+import Js from "./Js/js";
+import Html from "./Html/Html";
 
 const App = () => {
   return (
    <>
-   
-    <HomeP/>
+   <Routes>
+   <Route path="/" element={<HomeP/>}/>
+   <Route path="/js" element={<Js/>}/>
+   <Route path="/html" element={<Html/>}/>
+   </Routes>
+    
    
    </>
   );
