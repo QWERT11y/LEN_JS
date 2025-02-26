@@ -94,7 +94,6 @@ const Home = () => {
             </div>
            
             <div class="nav-toggle" id="nav-toggle">
-               <Burger/>
             </div>
         </nav>
         
