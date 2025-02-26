@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import ScrollReveal from "scrollreveal";
 import './Home.css'
-import Burger from "../Burger/burger";
 import { Link } from "react-router-dom";
 
 const Home = () => {
