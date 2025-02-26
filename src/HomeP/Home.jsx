@@ -165,7 +165,7 @@ const Home = () => {
                 </div>
 
                 <div class="skills-img">
-                    {/* <img src="" alt="skills image"> */}
+                    <img src="" alt="skills image"/>
                 </div>
             </div>
         </section>
@@ -189,13 +189,13 @@ const Home = () => {
 
                 <form action="" class="contact-form">
                     <div class="contact-inputs">
-                        {/* <input type="text" placeholder="Name" class="contact-input"> */}
-                        {/* <input type="email" placeholder="Email" class="contact-input"> */}
+                        <input type="text" placeholder="Name" class="contact-input"/>
+                        <input type="email" placeholder="Email" class="contact-input"/>
                     </div>
 
                     <textarea name="" id="" cols="0" rows="10" class="contact-input"></textarea>
 
-                    {/* <input type="submit" value="Send" class="contact-button"> */}
+                    <input type="submit" value="Send" class="contact-button"/>
                 </form>
             </div>
         </section>
