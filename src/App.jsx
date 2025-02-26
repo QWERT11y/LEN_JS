@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import HomeP from "./HomeP/HomeP";
-import Js from "./Js/js";
+import Js from "./Js/js.jsx";
 import Html from "./Html/Html";
 import LessonHtml1 from "./Html/LessonHtml1";
 import LessonHtml2 from "./Html/LessonHtml2";
